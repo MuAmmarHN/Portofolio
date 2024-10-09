@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Mu'Ammar Hannan Najib</title>
+    <!-- Link ke CSS Bootstrap -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Style untuk background */
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+            color: white;
+            text-align: center;
+        }
+
+        /* Container utama */
+        .container {
+            padding: px;
+        }
+
+        /* Style untuk gambar profil */
+        .profile-pic {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+            transition: transform 0.5s ease;
+        }
+
+        .profile-pic:hover {
+            transform: scale(1.1);
+        }
+
+        /* Style untuk tombol */
+        .button {
+            background-color: #ff6f61;
+            border: none;
+            color: white;
+            padding: 15px 30px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 18px;
+            margin: 10px 2px;
+            border-radius: 25px;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+
+        .button:hover {
+            background-color: #ff4f41;
+            transform: scale(1.1);
+        }
+
+        /* Animasi untuk teks */
+        .title {
+            font-size: 48px;
+            animation: fadeIn 2s ease-in-out;
+            margin-bottom: 20px;
+        }
+
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+
+        /* Style untuk deskripsi */
+        .description {
+            font-size: 20px;
+            max-width: 600px;
+            margin: 0 auto 20px;
+        }
+
+        /* Style untuk section */
+        section {
+            padding: 60px 0;
+        }
+
+        .section-title {
+            font-size: 36px;
+            margin-bottom: 40px;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+         /* Style untuk footer */
+         footer {
+            background-color: #203a43;
+            padding: 20px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1 class="title">Mu'Ammar Hannan Najib</h1>
+        <img src="11.jpeg" alt="Profile Picture" class="profile-pic img-fluid">
+        <p class="description">Welcome to my personal portfolio! I am a passionate developer specializing in IoT, web development, and innovative technology solutions.</p>
+        
+        <div>
+            <a href="#about" class="button btn btn-lg">About Me</a>
+            <a href="#projects" class="button btn btn-lg">Projects</a>
+            <a href="#contact" class="button btn btn-lg">Contact</a>
+        </div>
+    </div>
+
+    <!-- Section About Me -->
+    <section id="about" class="bg-dark text-white">
+        <div class="container">
+            <h2 class="section-title">About me</h2>
+            <p class="description">I am a dedicated Information Technology student at Telkom University with a strong interest in developing innovative solutions using IoT and web technologies. My experience includes working on various projects that enhance user experience and streamline processes. I am continuously learning and evolving in this fast-paced field.</p>
+        </div>
+    </section>
+
+    <!-- Section Projects -->
+    <section id="projects" class="bg-secondary text-white">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>Lorem Ipsum</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim, aspernatur omnis fugiat ducimus, nesciunt dignissimos dolores expedita dicta explicabo magni ut suscipit repellendus iste sapiente necessitatibus libero neque vero rem!</p>
+                </div>
+                <div class="col-md-4">
+                    <h3>Lorem Ipsum</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum dignissimos ipsa adipisci veniam eveniet, id iste cupiditate aut eius debitis, distinctio laboriosam? Officiis veritatis blanditiis officia rerum odit. Quod, sapiente?</p>
+                </div>
+                <div class="col-md-4">
+                    <h3>Lorem Ipsum</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, quod ea. Impedit autem consequuntur blanditiis debitis enim suscipit dolores adipisci, magni, delectus alias, voluptatum ducimus aspernatur. Perferendis cum doloribus molestias!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact" class="bg-dark text-white">
+        <div class="container">
+            <h2 class="section-title">Contact</h2>
+            <p>If you would like to get in touch, feel free to reach out through the following channels:</p>
+            <ul class="list-unstyled">
+                <li>Email: <a href="mailto:muammar@student.telkomuniversity.ac.id" class="text-white">muammar@student.telkomuniversity.ac.id</a></li>
+                <li>Phone: <a href="tel:085817729217" class="text-white">085817729217</a></li>
+                <li>Alamat: <a href="Jakarta,Indonesia" class="text-white">Jakarta, Indonesia</a></li>
+            </ul>
+        </div>
+    </section>
+ <!-- Footer -->
+ <footer>
+    <div class="container">
+        <p class="text-white mb-0">&copy; 2024 Mu'Ammar Hannan Najib. All Rights Reserved.</p>
+    </div>
+</footer>
+
+    <!-- Link ke JS Bootstrap dan jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
